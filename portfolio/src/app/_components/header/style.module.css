@@ -1,7 +1,12 @@
 
+.links h1 {
+    display: inline-flex;
+    padding: 40px 40px;
+    padding-right: 1000px;
+}
 
 .links h2 {
     display: inline-flex;
-    margin: 10px;
+    margin: 40px;
     color: red;
 }
