@@ -1,12 +1,17 @@
 
-.links h1 {
+.header {
+    display: inline-flex;
+    background-color: rgb(233, 43, 30);
+    max-width: 100%;
+}
+
+.header h1 {
     display: inline-flex;
     padding: 40px 40px;
     padding-right: 1000px;
 }
 
-.links h2 {
+.header h2 {
     display: inline-flex;
     margin: 40px;
-    color: red;
 }
