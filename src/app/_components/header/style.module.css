@@ -1,9 +1,12 @@
 
 .header {
     display: inline-flex;
-    background-color: rgb(233, 43, 30);
-    max-width: 100%;
+    background-color: #6327A0;
+    color: #FEFDFD;
+    width: 100%;
 }
+
+
 
 .header h1 {
     display: inline-flex;
