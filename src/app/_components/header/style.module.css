@@ -8,13 +8,15 @@
 
 
 
-.header h1 {
+.header .title {
     display: inline-flex;
-    padding: 40px 40px;
-    padding-right: 1000px;
+    width: 50%;
 }
 
-.header h2 {
+.header .navigation {
     display: inline-flex;
-    margin: 40px;
+}
+
+.navigation li {
+    padding-left: 10%;
 }

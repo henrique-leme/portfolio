@@ -3,7 +3,7 @@ import styles from "./style.module.css";
 export const Footer = () => {
   return (
     <div className={styles.footer}>
-        <div>
+        <div className={styles.contactsFooter}>
             <div>henrique-leme</div>
             <div>henrique-leme</div>
             <div>henrique.lb@outlook.com</div>
@@ -11,10 +11,11 @@ export const Footer = () => {
         <div>
             Available for freelance oportunities
         </div>
-      <div >
-        <div>Name</div>
-        <div>Email</div>
-        <div>Message</div>
+      <div className={styles.mailerFooter}>
+        <form action=""><div>Name</div>
+        <div>Email<input type="Email" /></div>
+        <div>Message</div></form>
+
       </div>
     </div>
   );
