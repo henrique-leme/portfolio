@@ -1,22 +1,29 @@
 
 .header {
     display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #6327A0;
     color: #FEFDFD;
     width: 100%;
 }
 
 
-
 .header .title {
-    display: inline-flex;
     width: 50%;
 }
 
 .header .navigation {
-    display: inline-flex;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
 }
 
-.navigation li {
-    padding-left: 5%;
+
+
+.navigation link:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: white;
 }
