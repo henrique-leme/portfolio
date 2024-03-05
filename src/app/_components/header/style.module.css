@@ -5,25 +5,30 @@
     justify-content: space-around;
     background-color: #6327A0;
     color: #FEFDFD;
+    padding: 1.5rem;
     width: 100%;
 }
 
 
-.header .title {
+.title {
+    font-weight: bold;
     width: 50%;
 }
 
-.header .navigation {
+.navigation {
     display: flex;
     gap: 2rem;
     list-style: none;
 }
 
+.navigation a {
+    color: #FEFDFD;
+    text-decoration: none;
+}
 
-
-.navigation link:hover {
+.navigation li:hover {
     color: white;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
     text-decoration-color: white;
 }
