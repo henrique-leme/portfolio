@@ -1,11 +1,15 @@
+import { ActiveLink } from "../activeLink"
 import styles from "./style.module.css"
 
 export const Header = () => {
   return (
     <nav className={styles.header}>
-      <div className={styles.title}>
+     <div>
+     <ActiveLink href={""}>
+     <div className={styles.title}>
         <h1> Portfolio </h1>
       </div>
+     </ActiveLink>
       <div>
         <ul className={styles.navigation}>
           <li>
@@ -22,6 +26,7 @@ export const Header = () => {
           </li>
         </ul>
       </div>
+     </div>
     </nav>
   )
 }
